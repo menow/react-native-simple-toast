@@ -4,7 +4,7 @@ var RCTToastAndroid = Platform.OS === 'android' ? ToastAndroid : NativeModules.L
 
 var SimpleToast = {
   // Toast duration constants
-  SHORT: Platform.OS === 'android' ? ToastAndroid.Short : 2.0,
+  SHORT: Platform.OS === 'android' ? ToastAndroid.SHORT : 2.0,
   LONG: Platform.OS === 'android' ? ToastAndroid.LONG : 3.5,
 
   // Toast gravity constants
